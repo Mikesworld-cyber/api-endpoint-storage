@@ -1,0 +1,18 @@
+# Dependencias (Nunca se deben subir porque son muy pesadas)
+node_modules/
+
+# Archivo de variables de entorno (Contiene llaves secretas y credenciales)
+.env
+
+# Archivos de logs de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Carpetas de compilación (Si usas TypeScript o herramientas de empaquetado)
+dist/
+build/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
